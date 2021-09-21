@@ -1,0 +1,74 @@
+
+body{
+    background-color: hsl(233, 47%, 7%);
+    text-decoration-color: aliceblue;
+}
+@font-face {
+    font-family: Inter ;
+    src: url("C:\Users\ikuma\Desktop\1st one\Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+    font-family: Lexend Deca;
+    src: url("C:\Users\ikuma\Desktop\1st one\LexendDeca-VariableFont_wght.ttf");
+}
+.card{
+    position:relative;
+    left:400px;
+    top:200px;
+    padding-left: 10px;
+    margin-left: 10px; 
+    border: 10px; 
+    height:max-content;
+    width:950px;
+    display: inline-block;
+    
+
+    background-color: hsl(244, 38%, 16%);
+    z-index: -10;
+}
+img{
+    position:absolute; 
+    right:0;
+    top: 0;
+    height:350px;
+    width: auto;
+}
+.main{
+    padding-left: 50px;
+    padding-top: 10px;
+    font-family: Inter;
+    font-weight: 700;
+    color: white;
+}
+.word{
+    color: hsl(277, 64%, 61%);
+}
+p{
+   line-height: 150%;
+   padding-left: 50px;;
+   padding-bottom: 20px;
+   font-family: Inter;
+   color:white;
+   font-weight: 200;
+   font-size: 12px;
+   
+}
+.stats{
+    padding-left: 50px;;
+    font-family: Lexend Deca;
+    color: white; 
+    font-weight: 700;
+    margin:0px; 
+    padding-bottom: 0px;;
+
+}
+.headings{
+    padding-left: 50px;
+    padding-top:5px; 
+    padding-bottom: 50px;
+    margin-top:0px; 
+    border-top:0px;
+    color: white; 
+    font-family: Inter;
+    font-weight: 100;
+}
